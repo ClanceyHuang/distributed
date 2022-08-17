@@ -1,9 +1,9 @@
 # distributed
 A simple distribute system for Go.
 
-architecture
+## architecture
 ```
-- biz/ 业务逻辑
+- biz/
     - grades/
         - grades.go 
         - mockdata.go
@@ -14,14 +14,14 @@ architecture
         - students.html
         - templates.go
 - cmd/
-    - gradingservice/ 分级服务
+    - gradingservice/
         - main.go
-    - logservice/ 日志服务
+    - logservice/
         - distributed.log
         - main.go
-    - portal/ 
+    - portal/
         - main.go 
-    - registryservice/ 注册服务
+    - registryservice/
         - main.go 
 - log/
     - client.go
@@ -30,7 +30,9 @@ architecture
     - client.go
     - registration.go
     - server.go
-- service/
+- service/ 
     - service.go
-- runtime/ 
+- runtime/
 ```
+
+## TODO
